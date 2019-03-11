@@ -1,1 +1,3 @@
 # urgence112-dataBase
+#Ou il y a les bases de données des inters, casernes, vhc...
+#Bref, il y auras une page de formulaire ou on remplit tt les infos , et après ça traite tt et ce seras en JSON
