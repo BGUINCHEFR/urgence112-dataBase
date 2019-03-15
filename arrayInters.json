@@ -1,0 +1,1192 @@
+﻿[
+	{
+		"titre": "PGR",
+		"description": "Procédure Gaz Renforcée",
+		"vehicules": "1 FPT - 1 VIRT - 1 CDG - 1 TV",
+		"revenu": "1500-2000",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Feu de poubelle",
+		"description": "Poubelles en feu",
+		"vehicules": "1 FPTL",
+		"revenu": "200-400",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Feu de VL",
+		"description": "Carburation connue",
+		"vehicules": "1 FPTL",
+		"revenu": "200-400",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Chute VP",
+		"description": "Chute fortuite sur la vp",
+		"vehicules": "1 VSAV (et SMUR si blessure plus grave)",
+		"revenu": "400-800",
+		"types": "Pompier (et SAMU)"
+	},
+	{
+		"titre": "Malaise",
+		"description": "Malaise sur vp",
+		"vehicules": "1 VSAV",
+		"revenu": "200-400",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Feu de VL GPL",
+		"description": "Carburation inconnue ou véhicule fonctionnant au GPL",
+		"vehicules": "1 FPT",
+		"revenu": "200-400",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Feu de camion",
+		"description": "Feu de camion",
+		"vehicules": "1 FPT - 1 CCGC",
+		"revenu": "400-600",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Feu de cheminée",
+		"description": "Feu dans un conduit de cheminée",
+		"vehicules": "1 FPT",
+		"revenu": "100-200",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Personne restant à terre suite à chute",
+		"description": "Personne ayant chuté et ne se relevant pas",
+		"vehicules": "1 VSAV - 1 SMUR",
+		"revenu": "400-600",
+		"types": "Pompier - SAMU"
+	},
+	{
+		"titre": "Accident VL/VL",
+		"description": "Deux voitures choc frontal",
+		"vehicules": "2 VSAV - 1 SMUR - 1 VSR - 1 TV",
+		"revenu": "250",
+		"types": "Pompier - Police - SAMU"
+	},
+	{
+		"titre": "Blessé ou assistance à personnne",
+		"description": "Une personne ayant besoin d'assistance",
+		"vehicules": "1 VSAV",
+		"revenu": "100-200",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Accident VL/2 roues",
+		"description": "Choc entre un 2 roues et une voiture",
+		"vehicules": "1 VSAV - 1VSR - 1 SMUR - 1 TV",
+		"revenu": "",
+		"types": ""
+	},
+	{
+		"titre": "Arrêt Cardio-Respiratoire",
+		"description": "Arrêt du coeur",
+		"vehicules": "1 VSAV - 1 SMUR",
+		"revenu": "200-400",
+		"types": "Pompier - SAMU"
+	},
+	{
+		"titre": "Tentative de suicide avec risque imminent",
+		"description": "Tentative de suicide avec risque imminent",
+		"vehicules": "1 VSAV - (1 SMUR)",
+		"revenu": "200",
+		"types": "Pompier - SAMU"
+	},
+	{
+		"titre": "Feu de Maison individuelle",
+		"description": "Maison mitoyenne en feu",
+		"vehicules": "2 FPT - 1 VSAV - 1 EPAN24 - 1 VL - 1 TV",
+		"revenu": "1500-2500",
+		"types": "Pompier - Police"
+	},
+	{
+		"titre": "Feu d'appartement",
+		"description": "Feu dans un appartement",
+		"vehicules": "1 FPT - 1 EPA - 1 FPTL - 1 VSAV - 1 CDG",
+		"revenu": "1500",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Carence ambulance privée",
+		"description": "Carence ambulance privée",
+		"vehicules": "1 VSAV",
+		"revenu": "100",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Feu de végétaux",
+		"description": "Feu de végétaux",
+		"vehicules": "1 FPT ou 1 CCF",
+		"revenu": "200",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Feu de lisière",
+		"description": "Lisière en feu",
+		"vehicules": "8 CCF - 1 CDHR - 2 VLHR",
+		"revenu": "",
+		"types": ""
+	},
+	{
+		"titre": "Feu de broussailles",
+		"description": "Feu de broussailles",
+		"vehicules": "3 CCF - 1 CCGC - 1 VLHR",
+		"revenu": "800",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Feu de forêt",
+		"description": "Feu de forêt",
+		"vehicules": "3 GIFF",
+		"revenu": "2500",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Accident Train/VL",
+		"description": "Accident entre un train et une voiture",
+		"vehicules": "2 VSAV - 1 FSRLourd - 1 SMUR - 1 FPT - 1 TV - 1 PMA",
+		"revenu": "2500",
+		"types": "Pompier - Police - SAMU"
+	},
+	{
+		"titre": "Accident PL/VL",
+		"description": "Accident entre un camion et une voiture",
+		"vehicules": "2 VSAV - 1 FSRLourd ou 1 FSR - 1 SMUR - 1 FPT - 1 TV",
+		"revenu": "3000",
+		"types": "Pompier - SAMU - Police"
+	},
+	{
+		"titre": "Accident 2 roues seul",
+		"description": "Accident avec un 2 roues",
+		"vehicules": "1 VSAV - 1 FSR - 1 TV",
+		"revenu": "200",
+		"types": "Pompier - Police"
+	},
+	{
+		"titre": "Récupération d'animal en montagne",
+		"description": "Animal en difficulté en montagne",
+		"vehicules": "1 GRIMP - 1 CHOUCAS - 1 VLTT",
+		"revenu": "500",
+		"types": "Pompier - Police"
+	},
+	{
+		"titre": "Feu dans ERP sans locaux à sommeil",
+		"description": "Feu dans un établissement recevant du public sans locaux à sommeil",
+		"vehicules": "1 CDG - 1 FPT - 1 FPTL - 1 EPA - 2 VSAV -",
+		"revenu": "1200",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Ivresse voie publique",
+		"description": "Personne ivre sur la voie publique",
+		"vehicules": "1 TV - 1 VSAV",
+		"revenu": "200",
+		"types": "Pompier - Police"
+	},
+	{
+		"titre": "Feu d'ERP avec locaux à sommeil",
+		"description": "Feu dans un établissement recevant du public avec locaux à sommeil",
+		"vehicules": "1 CDG - 1 FPT - 1 FPTL - 1 EPA - 2 VSAV - 1 VAR - 1 VEV",
+		"revenu": "2000",
+		"types": "Pompier - Police"
+	},
+	{
+		"titre": "Découverte de cadavre",
+		"description": "Découverte d'un cadavre",
+		"vehicules": "1 OPJ - 1 VSAV",
+		"revenu": "500",
+		"types": "Police - Pompier"
+	},
+	{
+		"titre": "Sauvetage Aquatique",
+		"description": "Personne en difficulté dans un milieu aquatique",
+		"vehicules": "1 VLHR - 1 VPL - 1 ELS - 1 SMUR",
+		"revenu": "600",
+		"types": "Pompier - 1 SAMU"
+	},
+	{
+		"titre": "Accident VL en ravin",
+		"description": "Accident avec une voiture ayant chuté dans un ravin",
+		"vehicules": "1 GRIMP - 1 FSR - 1 VSAV - 1 CDG - 1 SMUR - 1 TV",
+		"revenu": "1000",
+		"types": "Pompier - Police - SAMU"
+	},
+	{
+		"titre": "Accident 2 roues en ravin",
+		"description": "Accident avec un 2 roues ayant chuté dans un ravin",
+		"vehicules": "1 GRIMP - 1 FSR - 1 VSAV - 1 CDG - 1 SMUR - 1 TV",
+		"revenu": "1000",
+		"types": "Pompier - Police - SAMU"
+	},
+	{
+		"titre": "Accident VL tombé à l'eau",
+		"description": "Accident avec une voiture ayant chuté dans l'eau",
+		"vehicules": "1 CDG - 1 FSR - 1 VPL - 1 ELS - 1 VSAV - 1 SMUR - 1 TV",
+		"revenu": "2000",
+		"types": "Pompier - Police - SAMU"
+	},
+	{
+		"titre": "Alarme incendie sur site nucléaire",
+		"description": "Déclenchement d'alarme incendie sur site nucléaire",
+		"vehicules": "1 CDG - 1 VIRT - 1 FPT - 1 FPTL - 1 FMOGP - 1 TV",
+		"revenu": "3000",
+		"types": "Pompier - Police"
+	},
+	{
+		"titre": "Blessé à domicile",
+		"description": "Personne blessé à domicile",
+		"vehicules": "1 VSAV",
+		"revenu": "200",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Blessé à domicile - Personne de forte corpulence",
+		"description": "Personne blessé à domicile de forte corpulence",
+		"vehicules": "1 VSAV - 1 BEA - 1 GRIMP",
+		"revenu": "800",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Chute d'arbre VP",
+		"description": "Arbre ayant chuté sur la voie publique",
+		"vehicules": "1 CCF - 1 VID - 1 TV",
+		"revenu": "500",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Feu de batîment agricole",
+		"description": "Feu dans un batîment agricole",
+		"vehicules": "1 VLHR - 1 CCF - 1 CCGC - 1 EPA - 1 FPT",
+		"revenu": "800",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Recherche de toxicité",
+		"description": "Recherche de toxicité",
+		"vehicules": "1 CDG - 1 VSAV - 1 FPT - 1 VIRT - 1 TV",
+		"revenu": "1000",
+		"types": "Pompier - Police"
+	},
+	{
+		"titre": "Secours en montagne",
+		"description": "Personne en détresse en montagne",
+		"vehicules": "1 VLTT - 1 VSAVHR - 1 CHOUCAS ou 1 DRAGON",
+		"revenu": "1000",
+		"types": "Pompier - Police - Sécurité Civile"
+	},
+	{
+		"titre": "Accident de chasse",
+		"description": "Accident lors d'une battue",
+		"vehicules": "1 VLHR - 1 VSAVHR - 1 SMUR - 1 OPJ - 1 TV",
+		"revenu": "1000",
+		"types": "Pompier - Police - SAMU"
+	},
+	{
+		"titre": "Feu dans un tunnel routier",
+		"description": "Feu dans un tunnel routier",
+		"vehicules": "2 CDG - 2 FPT - 2 VTU - 2 VSAV - 2 TV",
+		"revenu": "2000",
+		"types": "Pompier - Police"
+	},
+	{
+		"titre": "Transport d'organe",
+		"description": "Transport d'organe",
+		"vehicules": "1 AP - 2 MOTO",
+		"revenu": "400",
+		"types": "SAMU - Police"
+	},
+	{
+		"titre": "Transport transfusion sang",
+		"description": "Transport de transfusion de sang",
+		"vehicules": "1 AP - 2 MOTO",
+		"revenu": "400",
+		"types": "SAMU - Police"
+	},
+	{
+		"titre": "Pollution aquatique",
+		"description": "Pollution aquatique",
+		"vehicules": "1 CEDEPOLL - 1 VIRT - 1 VPL - 1 ELS - 1 TV",
+		"revenu": "600",
+		"types": "Pompier - Police"
+	},
+	{
+		"titre": "Feu en milieu carcéral",
+		"description": "Feu dans une prison",
+		"vehicules": "3 FPT - 1 EPA - 1 CDG - 2 TV - 6 BAC - 3 VSAV - 2 VLM",
+		"revenu": "5000",
+		"types": "Pompier - SAMU - Police"
+	},
+	{
+		"titre": "Déraillement de train TMD",
+		"description": "Déraillement de train avec TMD",
+		"vehicules": "2 FPT 2 VSR 3 VSAV 1 VIRT 1 CEDEPOLL 3 CDG 1 CDC 1 PCC 3 TV 2 SMUR",
+		"revenu": "8000",
+		"types": "Pompier - SAMU - Police"
+	},
+	{
+		"titre": "Capture de NAC",
+		"description": "Capture d'un NAC",
+		"vehicules": "1 VAnimalier",
+		"revenu": "250",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Personne blessée par NAC",
+		"description": "Personne blessée par NAC",
+		"vehicules": "1 VAnimalier - 1 VSAV",
+		"revenu": "600",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Accident VL seul",
+		"description": "Accident de voiture seule",
+		"vehicules": "1 VSAV - 1 FSR - 1 TV",
+		"revenu": "500",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Reconstitution scène de crime",
+		"description": "Reconstition du placement d'un macabé",
+		"vehicules": "3 OPJ - 4 TV - 4 TM - 1 PTS - 2 FIPN",
+		"revenu": "2000",
+		"types": ""
+	},
+	{
+		"titre": "Feu de toiture",
+		"description": "Feu de toiture",
+		"vehicules": "1 FPT - 1 EPA",
+		"revenu": "500",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Intoxication alimentaire",
+		"description": "Intoxication alimentaire",
+		"vehicules": "1 VSAV - 1 SMUR",
+		"revenu": "400",
+		"types": "Pompier - SAMU"
+	},
+	{
+		"titre": "Intoxication CO",
+		"description": "Intoxication CO",
+		"vehicules": "1 VSAV - 1 SMUR - 1 FPT - 1 VIRT - 1 TV",
+		"revenu": "750",
+		"types": "Pompier - Police - SAMU"
+	},
+	{
+		"titre": "Accident Train/Piéton",
+		"description": "Accident entre un train et un piéton",
+		"vehicules": "1 VSAV - 1 FSR - 1 OPJ - 1 TV - 1 SMUR",
+		"revenu": "850",
+		"types": "Pompier - Police - SAMU"
+	},
+	{
+		"titre": "Surveillance événement sportif",
+		"description": "Surveillance d'un événement sportif",
+		"vehicules": "2 VSAV - 1 VLI",
+		"revenu": "500",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Accident PL TMD",
+		"description": "Accident impliquant un PL TMD",
+		"vehicules": "1 FPT - 1 FSRLourd ou 1 FSR - 1 VSAV - 1 VIRT - 1 CEDEPOLL - 1 TV",
+		"revenu": "950",
+		"types": "Pompier - Police"
+	},
+	{
+		"titre": "AVP train / PL TMD",
+		"description": "Accident impliquant un train et un PL TMD",
+		"vehicules": "2 FPT - 1 FRSLourd - 5 VSAV - 1 VIRT - 1 CeDEPOLL - 3 TV - 1 CDG - 1 SMUR",
+		"revenu": "",
+		"types": "POMPIER - POLICE - SAMU"
+	},
+	{
+		"titre": "Blessé au sport",
+		"description": "Blessé au sport",
+		"vehicules": "1 VSAV",
+		"revenu": "200",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Pendaison",
+		"description": "Personne s'étant pendue",
+		"vehicules": "1 VSAV - 1 SMUR - 1 OPJ",
+		"revenu": "500",
+		"types": "Pompier - Police - SAMU"
+	},
+	{
+		"titre": "Accident engin agricole",
+		"description": "Accident impliquant un engin agricole",
+		"vehicules": "1 VLHR - 1 VSAV - 1 FSR ou 1 FSRLourd - 1 SMUR - 1 TV - 1 DRAGON",
+		"revenu": "3000",
+		"types": "Pompier - Police - SAMU - Sécurité Civile"
+	},
+	{
+		"titre": "Section d'un ou plusieurs membres",
+		"description": "Section d'un ou plusieurs membres",
+		"vehicules": "1 VSAV - 1 SMUR",
+		"revenu": "600",
+		"types": "Pompier - SAMU"
+	},
+	{
+		"titre": "Feu dans un dépôt de bois",
+		"description": "Feu dans un dépôt de bois",
+		"vehicules": "1 VLHR - 1 CDG - 2 CCFM - 1 CCGC - 1 CDHR - 1 POM - 1 FPT - 1 TV",
+		"revenu": "900",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Objet menaçant de tomber",
+		"description": "Un objet qui menace de tomber",
+		"vehicules": "1 VID - 1 EPA",
+		"revenu": "500",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Tentative de suicide par défénéstration",
+		"description": "Personne s'étant jeter par une fenêtre",
+		"vehicules": "1 VSAV - 1 SMUR - 1 OPJ - 1 TV",
+		"revenu": "500",
+		"types": "Pompier - Police - SAMU"
+	},
+	{
+		"titre": "Tentative de suicide médicamenteuse",
+		"description": "Tentative de suicide par prise de médicaments",
+		"vehicules": "1 VSAV - 1 SMUR - 1 OPJ",
+		"revenu": "500",
+		"types": "Pompier - Police - SAMU"
+	},
+	{
+		"titre": "Destruction d'insectes nuisibles",
+		"description": "Destruction de nid d'insectes nuisibles",
+		"vehicules": "1 VID",
+		"revenu": "200",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Chute d'une grande hauteur",
+		"description": "Chute d'une grande hauteur",
+		"vehicules": "1 VSAV - 1 SMUR",
+		"revenu": "400",
+		"types": "Pompier - SAMU"
+	},
+	{
+		"titre": "Tentative de suicide par arme à feu",
+		"description": "Tentative de suicide par arme à feu",
+		"vehicules": "1 VSAV - 1 SMUR - 1 OPJ - 1 TV",
+		"revenu": "500",
+		"types": "Pompier - SAMU - Police"
+	},
+	{
+		"titre": "Explosion de station service suivie de feu",
+		"description": "Explosion d'une station service suivie de feu",
+		"vehicules": "3 FPT - 2 VSAV - 2 TV - 1 FMOGP - 1 CDHR - 1 POM - 1 CCGC",
+		"revenu": "2000",
+		"types": "Pompier - Police"
+	},
+	{
+		"titre": "Blessé arme à feu/arme blanche",
+		"description": "Blessé par arme à feu ou arme blance",
+		"vehicules": "1 VSAV - 1 SMUR - 1 TV",
+		"revenu": "500",
+		"types": "Pompier - Police - SAMU"
+	},
+	{
+		"titre": "Crash aéronef de tourisme",
+		"description": "Crash d'un aéronef de tourisme",
+		"vehicules": "2 CDG - 1 FPT - 1 VSR - 3 VSAV - 2 SMUR - 2 TV - 1 OPJ",
+		"revenu": "2800",
+		"types": "Pompier - Police - SAMU"
+	},
+	{
+		"titre": "Accident Train/Autocar",
+		"description": "Accident entre un train et un autocar",
+		"vehicules": "1 CDS - 4 CDC - 10 CDG - 2 FPT - 4 VSR - 10 VSAV - 4 SMUR - 1 LOG - 1 PMA - 1 CUMP - 2 OPJ 2 - 4 TV",
+		"revenu": "8000",
+		"types": "Pompier - Police - SAMU"
+	},
+	{
+		"titre": "Feu de chalet",
+		"description": "Feu dans un chalet",
+		"vehicules": "1 VLHR - 2 CCF - 1 CCGC - 1 EPA - 1 VSAV",
+		"revenu": "1100",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Douleur thoracique aggravée",
+		"description": "Douleur thoracique aggravée",
+		"vehicules": "1 VSAV - 1 SMUR",
+		"revenu": "350",
+		"types": "Pompier - SAMU"
+	},
+	{
+		"titre": "Chute de ligne éléctrique",
+		"description": "Chute de ligne éléctrique",
+		"vehicules": "1 VPI",
+		"revenu": "150",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Alarme incendie",
+		"description": "Déclenchement alarme incendie",
+		"vehicules": "1 CDG - 1 FPT",
+		"revenu": "350",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Dépannage véhicule de secours",
+		"description": "Dépannage d'un véhicule de secours en panne",
+		"vehicules": "1 VMecanique",
+		"revenu": "200",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Effondrement de batîment",
+		"description": "Effondrement d'un batîment",
+		"vehicules": "1 CDC - 2 CDG - 1 CYNO - 2 FPT - 2 TV - 1 PC - 1 SD - 1 SMUR - 2 VSAV",
+		"revenu": "1200",
+		"types": "Pompier - Police - SAMU"
+	},
+	{
+		"titre": "Innondation appartement",
+		"description": "Innondation dans un appartement",
+		"vehicules": "1 VID",
+		"revenu": "200",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Feu de cuisine",
+		"description": "Feu de cuisine",
+		"vehicules": "1 CDG - 1 VSAV - 1 FPT - 1 EPA",
+		"revenu": "400",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Feu de décharge",
+		"description": "Feu dans une décharge",
+		"vehicules": "1 CDG - 1 FPT - 1 EPA - 1 CCGC - 1 FMOGP",
+		"revenu": "950",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Feu de ferme",
+		"description": "Feu de ferme",
+		"vehicules": "1 CDG - 1 FPT - 1 CCGC - 1 VSAV - 1 EPA",
+		"revenu": "1200",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Fuite de produit chimique",
+		"description": "Fuite de produit chimique",
+		"vehicules": "1 CDG - 1 FPT - 1 VIRT - 1 TV -1 CEDEPOLL",
+		"revenu": "1200",
+		"types": "Pompier - Police"
+	},
+	{
+		"titre": "Fumée suspecte",
+		"description": "Fumée suspecte",
+		"vehicules": "1 CDG - 1 FPT",
+		"revenu": "250",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Odeur suspecte",
+		"description": "Odeur suspecte",
+		"vehicules": "1 CDG - 1 FPT",
+		"revenu": "250",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Fuite de gaz enflammé",
+		"description": "Fuite de gaz enflammé",
+		"vehicules": "1 CDG - 2FPT - 1 CCGC - 1 VSAV - 2 TV",
+		"revenu": "950",
+		"types": "Pompier - Police"
+	},
+	{
+		"titre": "Fuite de gaz enflammé en façade",
+		"description": "Fuite de gaz enflammé en façade",
+		"vehicules": "1 CDG - 2 FPT - 1 CCGC - 1 VSAV - 1 EPA - 2 TV",
+		"revenu": "1250",
+		"types": "Pompier - Police"
+	},
+	{
+		"titre": "Rupture d'une canalisation de gaz",
+		"description": "Rupture d'une canalisation de gaz",
+		"vehicules": "1 CDG - 1 FPT - 1 VIRT - 1 TV",
+		"revenu": "800",
+		"types": "Pompier - Police"
+	},
+	{
+		"titre": "Procédure gaz classique",
+		"description": "Procédure gaz classique",
+		"vehicules": "1 CDG - 1 FPT - 1 TV",
+		"revenu": "450",
+		"types": "Pompier - Police"
+	},
+	{
+		"titre": "Ascenceur bloqué",
+		"description": "Ascenceur bloqué",
+		"vehicules": "1 VID",
+		"revenu": "200",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Feu industriel",
+		"description": "Feu industriel",
+		"vehicules": "2 CDC - 10 CDG - 1 CDHR - 2 EPA - 2 FMOGP - 6 FPT - 1 LOG - 2 OPJ - 5 TV - 1 PC - 1 VSAV",
+		"revenu": "8500",
+		"types": "Pompier - Police"
+	},
+	{
+		"titre": "Fuite d'eau",
+		"description": "Fuite d'eau",
+		"vehicules": "1 VID",
+		"revenu": "200",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Différend familial",
+		"description": "Différend familial",
+		"vehicules": "1 TV",
+		"revenu": "",
+		"types": ""
+	},
+	{
+		"titre": "Rixe",
+		"description": "Rixe",
+		"vehicules": "2 TV - 1 BAC",
+		"revenu": "",
+		"types": ""
+	},
+	{
+		"titre": "Vol à main armée",
+		"description": "Vol à main armée",
+		"vehicules": "2 BAC - 2 TV - 1 PTS - 1 OPJ - 1 VSAV",
+		"revenu": "",
+		"types": ""
+	},
+	{
+		"titre": "Extorsion de fond",
+		"description": "Extorsion de fond",
+		"vehicules": "1 BAC - 1 TV",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Vol avec violence",
+		"description": "Vol avec violence",
+		"vehicules": "2 BAC - 1 TV - 1 VSAV",
+		"revenu": "",
+		"types": "POLICE - POMPIER"
+	},
+	{
+		"titre": "Vol à l'étalage",
+		"description": "Vol à l'étalage",
+		"vehicules": "1 TV",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Agression sexuelle",
+		"description": "Agression sexuelle",
+		"vehicules": "1 BAC - 1 TV",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Vol à la portière",
+		"description": "Vol à la portière",
+		"vehicules": "2 BAC - 2 TV",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Vol de véhicule",
+		"description": "Vol de véhicule",
+		"vehicules": "3 BAC - 2 TV - 2 TM",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Vol par effraction",
+		"description": "Vol par effraction",
+		"vehicules": "1 OPJ - 1 TV - 1 BAC",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Disparition inquiétante",
+		"description": "Disparition inquiétante",
+		"vehicules": "1 OPJ - 4 TV - 1 CYNO SP",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Agression VP",
+		"description": "Agression VP",
+		"vehicules": "2 BAC - 1 TV",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Séquestration",
+		"description": "Séquestration",
+		"vehicules": "2 OPJ - 2 TV - 1 BAC - 1 SDPJ",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Enlèvement",
+		"description": "Enlèvement",
+		"vehicules": "2 BAC - 1 OPJ - 1 TV",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Accident matériel",
+		"description": "Accident matériel",
+		"vehicules": "1 PAM",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Constatation de cambriolage",
+		"description": "Constatation de cambriolage",
+		"vehicules": "1 TV - 1 OPJ - 1 PTS",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Recel de vol",
+		"description": "Recel",
+		"vehicules": "1 BAC",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Refus d'obtempérer",
+		"description": "Refus d'obtempérer",
+		"vehicules": "2 BAC - 2 TV - 2 TM",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Interpellation à domicile",
+		"description": "Interpellation à domicile",
+		"vehicules": "4 FIPN - 1 BAC - 1 TV - 1 TL",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Jet de projectile",
+		"description": "Jet de projectile",
+		"vehicules": "2 BAC - 4 CDI - 2 TV",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Protection d'ambassade",
+		"description": "Projet d'ambassade",
+		"vehicules": "3 CI - 2 TV",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Individu en fuite",
+		"description": "Individu en fuite",
+		"vehicules": "2 BAC",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Vol à la roulotte",
+		"description": "Vol à la roulotte",
+		"vehicules": "1 BAC - 1 TV",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Individu recherché",
+		"description": "Interpellation d'un individu recherché pour terrorisme",
+		"vehicules": "4 VLAT - 1 TL - 2 FIPN",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Filature d'individu",
+		"description": "Filature d'individu",
+		"vehicules": "6 SD - 1 TL",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Trafic de stupéfiants",
+		"description": "Trafic de stupéfiants",
+		"vehicules": "4 SD - 2 BAC - 1 TL",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Surveillance point de deal",
+		"description": "Surveillance point de deal",
+		"vehicules": "3 BAC - 2 SD",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Sécurisation hall de transpot gare",
+		"description": "Sécurisation hall de transport gare",
+		"vehicules": "3 BTC - 2 TV - 1 BAC",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Homicide",
+		"description": "Homicide",
+		"vehicules": "1 OPJ - 3 TV - 1 BAC - 1 PTS",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Tentative d'homicide",
+		"description": "Tentative d'homicide",
+		"vehicules": "1 OPJ - 1 PTS - 1 TV - 1 BAC",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Manifestation",
+		"description": "Manifestation",
+		"vehicules": "16 CRS - 2 TL - 1 TI - 4 CI",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Violence urbaine",
+		"description": "Violence urbaine",
+		"vehicules": "6 CDI - 3 BAC - 2 TV",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Déferlement d'individu",
+		"description": "Déferement d'individu",
+		"vehicules": "1 TFC - 1 ESCORTE - 1 PAM",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Service d'ordre",
+		"description": "Service d'ordre",
+		"vehicules": "8 CDI - 4 TV- 2 BAC - 1 TL - 1 TI",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Maintien de l'ordre",
+		"description": "Maintien de l'ordre",
+		"vehicules": "12 CRS - 4 CDI - 02 TCL - 4 BAC - 1 TL - 1 TI",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Effondrement de gradin",
+		"description": "effondrement gradin entrainant déblaiment recherche de victimes secour à personne évacuation maintient de l'odre... (services funéraires ?)",
+		"vehicules": "",
+		"revenu": "",
+		"types": "POLICE - POMPIER - SAMU"
+	},
+	{
+		"titre": "Mouvement de foule",
+		"description": "mouvement de foule entrainant secour à personne ainsi que maintient de l'ordre (services funéraires ?)",
+		"vehicules": "20 CRS - 2 BLE - 6 TV - 6 BAC - 2 UCLVU - 5VSAV-2SMUR",
+		"revenu": "",
+		"types": "POLICE-POMPIER-SAMU"
+	},
+	{
+		"titre": "Renflouement de bateau",
+		"description": "intervention visant à renflouer un navire qui prend la flotte voir coulé",
+		"vehicules": "",
+		"revenu": "",
+		"types": ""
+	},
+	{
+		"titre": "Sauvetage naval",
+		"description": "intervention maritime visant à sauver un navire en perdition dont le personnel n'aurait plus le contrôle (hélitreuillage...)",
+		"vehicules": "",
+		"revenu": "",
+		"types": ""
+	},
+	{
+		"titre": "Inondation",
+		"description": "intervention de sauvetage hélitreuillage maintient de l'ordre (en cas de pilleurs..) pompes",
+		"vehicules": "",
+		"revenu": "",
+		"types": ""
+	},
+	{
+		"titre": "Collision maritime FRET",
+		"description": "intervention en cas de choque entre plusieurs bateaux : dépollution",
+		"vehicules": " sauvetage de la faune (engluée dans le gazoil) secoure du personnel",
+		"revenu": " renflouage",
+		"types": " SaP"
+	},
+	{
+		"titre": "Collision paquebot",
+		"description": "intervention en cas de percution d'un paquebot avec un ? recherche de personnes dans l'eau",
+		"vehicules": " SaP",
+		"revenu": " hélitreuillage",
+		"types": " stabilisation du bateau..."
+	},
+	{
+		"titre": "Feu d'engin agricole",
+		"description": "Feu d'un engin agricole",
+		"vehicules": "1 VLHR - 1 CCF - 1 CCGC - 1 VPI",
+		"revenu": "700",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Accident de loisirs",
+		"description": "Accident de loisirs",
+		"vehicules": "1 VSAV",
+		"revenu": "300",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Accident de loisirs en montagne",
+		"description": "Accident de loisirs en montagne",
+		"vehicules": "1 VLHR - 1 VSAVHR - 1 VIMP - 1 DRAGON ou CHOUCAS - 1 SMUR",
+		"revenu": "950",
+		"types": "Pompier - SAMU - Police"
+	},
+	{
+		"titre": "Accouchement",
+		"description": "Accouchement",
+		"vehicules": "1 VSAV - 1 SMUR",
+		"revenu": "450",
+		"types": "Pompier - SAMU"
+	},
+	{
+		"titre": "Astreinte mécanique",
+		"description": "Astreinte mécanique",
+		"vehicules": "1 VMecanique",
+		"revenu": "250",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Accident VL en feu",
+		"description": "Accident impliquant une voiture en feu",
+		"vehicules": "1 CDG - 1 FPT - 1 FSR - 1 VSAV - 1 SMUR - 1 TV",
+		"revenu": "850",
+		"types": "Pompier - SAMU - Police"
+	},
+	{
+		"titre": "Accident PL en feu",
+		"description": "Accident impliquant un poids lourd en feu",
+		"vehicules": "1 CDG - 1 FPT - 1 FSR - 1 VSAV - 1 SMUR - 1 CCGC - 1 TV",
+		"revenu": "1250",
+		"types": "Pompier - SAMU - Police"
+	},
+	{
+		"titre": "Accident PL TMD en feu",
+		"description": "Accident impliquant un poids lourd TMD en feu",
+		"vehicules": "1 CDG - 1 FPT - 1 FSR - 1 VSAV - 1 SMUR - 1 CCGC - 1 VIRT - 1 FMOGP - 1 TV",
+		"revenu": "1850",
+		"types": "Pompier - SAMU - Police"
+	},
+	{
+		"titre": "Feu de cave",
+		"description": "Feu dans une cave",
+		"vehicules": "1 CDG - 1 EPA - 1 FPT - 1 CCGC - 1 FPTL - 1 VSAV",
+		"revenu": "1000",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Feu de parking souterrain",
+		"description": "Feu dans un parking souterrain",
+		"vehicules": "1 CDG - 1 EPA - 1 FPT - 1 FPTL - 1 VSAV - 1 VEV - 1 GELD - 1 VAR",
+		"revenu": "1500",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Contrôle RADAR",
+		"description": "Contrôle radar",
+		"vehicules": "1 RADAR LAPI",
+		"revenu": "150",
+		"types": "Police"
+	},
+	{
+		"titre": "Douleur thoracique",
+		"description": "Douleur thoracique",
+		"vehicules": "1 VSAV",
+		"revenu": "250",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Douleur abdominale",
+		"description": "Douleur abdominale",
+		"vehicules": "1 VSAV",
+		"revenu": "200",
+		"types": "Pompier"
+	},
+	{
+		"titre": "Colis suspect en gare",
+		"description": "Valise abandonnée dans une gare",
+		"vehicules": "6 BRF - 2 TP - 1 DEMINAGE",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Colis suspect sur VP",
+		"description": "Colis abandonnée sur la voie publique",
+		"vehicules": "2 PAM - 1 DEMINAGE - 2 TM - 2 VTT - 2 TPS",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Surveillance forestière",
+		"description": "Surveillance de la forêt à cheval",
+		"vehicules": "1 TCH",
+		"revenu": "40",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Surveillance base de loisirs",
+		"description": "Surveillance base de loisirs",
+		"vehicules": "1 TCH - 1 TP - 1 VTT",
+		"revenu": "70",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Surveillance Gare",
+		"description": "Plan Vigipirate",
+		"vehicules": "1 BTC - 1 TP",
+		"revenu": "65",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Surveillance Autoroute",
+		"description": "Surveillance des autoroutes",
+		"vehicules": "1 VSR",
+		"revenu": "40",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Contrôle vitesse",
+		"description": "Dispositif de contrôle vitesse sur Autoroute",
+		"vehicules": "1 TH - 4 TM - 2 VSR - 3 TV",
+		"revenu": "",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Sécurisation urbaine",
+		"description": "Sécurisation de la commune",
+		"vehicules": "01 TCS",
+		"revenu": "40",
+		"types": "POLICE"
+	},
+	{
+		"titre": "Embrasement usine",
+		"description": "Embrasement généralisé d’une usine",
+		"vehicules": "1PCC - 7 CGC - 2 EPA - 4 FPT - 2 FPTL - 4 VSAV - 1 VRM - 1 VIRT - CEDEPOL - 2 VAR - 1 VEV - 1 PCC - 1 DA - 1 FMOGP - CEEMUL - 2 GDC - 1 GDS",
+		"revenu": "",
+		"types": ""
+	},
+	{
+		"titre": "Sécurisation pédestre",
+		"description": "Sécurisation en pédestre",
+		"vehicules": "01 TP",
+		"revenu": "15",
+		"types": ""
+	},
+	{
+		"titre": "Sécurisation C.C.",
+		"description": "Sécurisation Centre Commercial / VIGIPIRATE",
+		"vehicules": "01 BTC - 1 TP",
+		"revenu": "",
+		"types": ""
+	},
+	{
+		"titre": "Opération Stupéfiants",
+		"description": "Opération de recherche Stupéfiants dans un quartier sensible",
+		"vehicules": "1 UCLS - 02 TV - 3 BTC -",
+		"revenu": "",
+		"types": ""
+	},
+	{
+		"titre": "Opération explosif",
+		"description": "Opération de recherche produits explosif",
+		"vehicules": "",
+		"revenu": "",
+		"types": ""
+	},
+	{
+		"titre": "Outrage - Rebellion",
+		"description": "Outrage à PDAP",
+		"vehicules": "1 TV ou BAC",
+		"revenu": "",
+		"types": ""
+	},
+	{
+		"titre": "Guet apens",
+		"description": "Guet apens par 50 individus",
+		"vehicules": "04 BAC - 03 BTC - 03 TV - 1 UCLVU - 3 CDI",
+		"revenu": "",
+		"types": ""
+	},
+	{
+		"titre": "Escorte de GAV",
+		"description": "Escorte d'un condamné en détention",
+		"vehicules": "1 TV - 1 TM - CDI",
+		"revenu": "",
+		"types": ""
+	},
+	{
+		"titre": "Braquage de frêt",
+		"description": "Braquage d'un camion de frêt",
+		"vehicules": "2 BAC - 2 PAM - 1 OPJ - 1 SDPJ",
+		"revenu": "",
+		"types": ""
+	},
+	{
+		"titre": "Tentative de suicide par noyade",
+		"description": "Personne se jetant dans un cours d'eau",
+		"vehicules": "1 VPL + EMB + 1 PAM + 1 VSAV + SMUR",
+		"revenu": "",
+		"types": "POLICE POMPIER SMUR"
+	},
+	{
+		"titre": " feu dans un hopital ",
+		"description": "Feu dans un hopital avec évacuation",
+		"vehicules": "",
+		"revenu": "",
+		"types": ""
+	},
+	{
+		"titre": "Effondrement d'immeuble",
+		"description": "Effondrement d'immeuble habité.",
+		"vehicules": "",
+		"revenu": "",
+		"types": "POLICE-POMPIER-SMUR"
+	},
+	{
+		"titre": "Feu de gilets jaunes",
+		"description": "",
+		"vehicules": "",
+		"revenu": "",
+		"types": ""
+	},
+	{
+		"titre": "Hémorragie externe ou externalisée grave",
+		"description": "",
+		"vehicules": "",
+		"revenu": "",
+		"types": ""
+	}
+]

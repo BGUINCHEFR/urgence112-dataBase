@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Verif base de donnée</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="traitementDataBase.css">
+</head>
+<body>
+	<h1>Base de donnée interventions</h1>
+	<p>Les cases rouge foncées sont les cases non complétés, il faut tout remplir</p>
+	<div id="dataBaseInters">
+		<div id="dataBaseIntersCollonesDescription">
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</div>
+		<table id="tableDataBaseInters">
+			<tr id="etiquettesTableDataBaseInters">
+				<th>Nom</th>
+				<th>Description</th>
+				<th>Vehicules</th>
+				<th>Revenu</th>
+				<th>Types</th>
+			</tr>
+		</table>
+		<div id="infosLignetableDataBaseIntersAjouterLigne">
+			<input type="text" placeholder="Entrez le titre" name="titre">
+			<input type="text" placeholder="Entrez la description" name="description">
+			<input type="text" placeholder="Entrez les véhicules requis(nom du vhc)" name="vehicules">
+			<input type="text" placeholder="Entrez le revenu(chiffre)" name="revenu">
+			<input type="text" placeholder="Entrez le type (pompier/police/samu)" name="type">
+		</div>
+		<button id="tableDataBaseIntersAjouterLigne">Ajouter une ligne</button>
+	</div>
+	<script type="text/javascript" src="lib/jquery/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="lib/ajax/manageJSON.js"></script>
+	<script type="text/javascript" src="traitementDataBaseArrayInters.js"></script>
+</body>
+</html>
